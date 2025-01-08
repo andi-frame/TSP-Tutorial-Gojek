@@ -43,7 +43,7 @@ best_order, min_clicks = tsp_bruteforce(dist_matrix)
 print("Urutan optimal fitur aplikasi (indeks fitur):", best_order)
 print("Total klik (waktu yang dibutuhkan):", min_clicks)
 
-# Jika perlu, kita dapat mengganti indeks dengan nama fitur
+
 features = ['Pemesanan Makanan', 'Transportasi', 'Pengiriman Barang', 'Pembayaran', 'Akun Pengguna']
 optimal_order_features = [features[i] for i in best_order]
 
